@@ -1,3 +1,8 @@
+# Warning
+
+This sample uses plugins, which will be deprecated.
+There is a [new repository](https://github.com/Kotlin/kotlin-full-stack-application-demo) with actual Kotlin version and Kotlin/JS Gradle plugin.
+
 # Thinkter: A Kotlin Full-stack Application Example
 
 Thinkter is an example of a full-stack Web application built with Kotlin. The backend runs on the JVM, and the browser
@@ -6,8 +11,8 @@ front-end uses React. The example implements a very simple microblogging applica
 ## Backend
 
 The backend of Thinkter is built using [Ktor](https://github.com/kotlin/ktor), a Web framework built by the Kotlin team.
-For data persistence, it uses [H2](http://www.h2database.com), allowing you to run the example without the need to configure
-an external SQL server. The HTTP server implementation is provided by [Jetty](http://www.eclipse.org/jetty/).
+For data persistence, it uses [H2](https://www.h2database.com), allowing you to run the example without the need to configure
+an external SQL server. The HTTP server implementation is provided by [Jetty](https://www.eclipse.org/jetty/).
 
 To run the backend, use `./gradlew backend:run`, or open Thinkter as a project in IntelliJ IDEA and execute the shared 
 run configuration `Backend :: Jetty`. This will start serving the REST API of the backend on port 9090.
